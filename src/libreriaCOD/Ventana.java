@@ -1,5 +1,7 @@
 package libreriaCOD;
 
+import jdk.nashorn.internal.scripts.JO;
+
 import javax.swing.*;
 
 /**
@@ -27,6 +29,6 @@ public class Ventana implements InterfaceMetodosComunes {
 
     @Override
     public void visualizar(String mensaje) {
-
+        JOptionPane.showMessageDialog(null,mensaje);
     }
 }
