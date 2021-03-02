@@ -31,4 +31,9 @@ public class Ventana implements InterfaceMetodosComunes {
     public void visualizar(String mensaje) {
         JOptionPane.showMessageDialog(null,mensaje);
     }
+
+    @Override
+    public void introducirDatos() {
+
+    }
 }

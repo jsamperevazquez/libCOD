@@ -9,4 +9,9 @@ public class Impresora  implements InterfaceMetodosComunes{
     public void visualizar(String mensaje) {
         System.out.println(mensaje);
     }
+
+    @Override
+    public void introducirDatos() {
+
+    }
 }
