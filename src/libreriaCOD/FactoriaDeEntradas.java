@@ -10,7 +10,7 @@ public class FactoriaDeEntradas {
     public static final int VENTANA = 2;
 
 
-    public static InterfaceMetodosComunes getProducto(int tipo) {
+    public static InterfaceMetodosComunes getProductoEntrada(int tipo) {
         switch (tipo) {
             case CONSOLA:
                 return new InConsola();
